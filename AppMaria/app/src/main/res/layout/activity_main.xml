@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#ffffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/vespa_logo"
+        />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione una opción"
+            android:textSize="35dp"
+            android:gravity="center"
+            />
+
+
+       <LinearLayout
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/cambio_color1"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:text="Cambiar color letras"
+            android:background="#0099cc"/>
+
+           <Button
+
+               android:layout_marginRight="40dp"
+               android:layout_gravity="center"
+               android:id="@+id/cambio_color2"
+               android:layout_marginTop="10dp"
+               android:textColor="#ffffff"
+               android:layout_width="75dp"
+               android:layout_height="40dp"
+               android:text="Cambiar color letras"
+               android:background="#99cc00"/>
+
+           <Button
+               android:layout_gravity="center"
+               android:id="@+id/cambio_color3"
+               android:layout_marginTop="10dp"
+               android:textColor="#ffffff"
+               android:layout_width="75dp"
+               android:layout_height="40dp"
+               android:text="Cambiar color letras"
+               android:background="#cc0000"/>
+       </LinearLayout>
+
+
+
+
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/foto_uno"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Vespa blanca"
+            android:background="#ff03f4ad"
+            android:textColor="#ffffffff"/>
+
+        <Button
+            android:id="@+id/foto_dos"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Vespa negra"
+            android:background="#ff03f4ad"/>
+
+        <Button
+            android:id="@+id/foto_tres"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff9a25"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Vespa Naranja"
+            android:background="#ff03f4ad"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
